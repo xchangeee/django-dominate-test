@@ -5,8 +5,8 @@ Test to see if [dominate](https://github.com/Knio/dominate/) can be used as a re
 ## Setup
 
 ```plain
-$ pipenv sync --dev
-$ pipenv run python ./tstprj/manage.py runserver
+$ poetry install
+$ poetry run python ./tstprj/manage.py runserver
 ```
 
 ## Overview
